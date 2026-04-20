@@ -296,6 +296,13 @@ For support and questions:
 - Responsive design for all devices
 - SEO optimized structure
 
+## 👨‍💻 Author
+
+**Ronie Pactol** - *Creator and Lead Developer*
+
+- GitHub: [@NiessenWaffer](https://github.com/NiessenWaffer)
+- Project: [Radiant Force Human Resources](https://github.com/NiessenWaffer/RADIANTFORCEHUMANRESOURCES)
+
 ---
 
-**Made with ❤️ by Radiant Force Human Resources Team**
+**Made with ❤️ by Ronie Pactol**
