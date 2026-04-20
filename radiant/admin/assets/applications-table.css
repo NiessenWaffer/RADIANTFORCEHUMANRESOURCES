@@ -1,0 +1,175 @@
+/* Applications Table Compact Styles */
+
+.data-table tbody tr {
+    height: auto;
+}
+
+.data-table tbody td {
+    padding: 8px 12px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.data-table tbody td strong {
+    font-size: 14px;
+}
+
+/* Compact badges */
+.badge {
+    padding: 3px 8px;
+    font-size: 10px;
+    margin-left: 6px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.badge-warning {
+    background: #fef3c7;
+    color: #92400e;
+    border-radius: 12px;
+}
+
+.badge-info {
+    background: #dbeafe;
+    color: #1e40af;
+    border-radius: 12px;
+}
+
+.badge-secondary {
+    background: #f3f4f6;
+    color: #6b7280;
+    border-radius: 12px;
+}
+
+/* Compact status select */
+.status-select {
+    padding: 4px 8px;
+    font-size: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+.status-select:focus {
+    outline: none;
+    border-color: #1e3a5f;
+}
+
+/* Status colors */
+.status-unread {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.status-read {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.status-shortlisted {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.status-rejected {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.status-hired {
+    background: #ddd6fe;
+    color: #5b21b6;
+}
+
+/* Compact action buttons */
+.btn-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin: 0 2px;
+}
+
+.btn-action svg {
+    width: 16px;
+    height: 16px;
+}
+
+.btn-view {
+    background: #3b82f6;
+    color: white;
+}
+
+.btn-view:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+}
+
+.btn-delete {
+    background: #ef4444;
+    color: white;
+}
+
+.btn-delete:hover {
+    background: #dc2626;
+    transform: translateY(-2px);
+}
+
+/* Compact table cells */
+.data-table td:first-child {
+    max-width: 200px;
+}
+
+.data-table td:nth-child(2) {
+    max-width: 180px;
+}
+
+/* Make forms inline and compact */
+.data-table form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .data-table tbody td {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+    
+    .btn-action {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .btn-action svg {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .data-table tbody td {
+        padding: 8px;
+        font-size: 11px;
+    }
+    
+    .badge {
+        padding: 2px 6px;
+        font-size: 9px;
+    }
+    
+    .status-select {
+        padding: 3px 6px;
+        font-size: 11px;
+        min-width: 90px;
+    }
+}

@@ -1,0 +1,369 @@
+/* Compact Application View Styles */
+
+/* Header */
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.app-header-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-back {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f4f6;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #374151;
+    transition: all 0.2s;
+}
+
+.btn-back:hover {
+    background: #e5e7eb;
+}
+
+.btn-back svg {
+    width: 18px;
+    height: 18px;
+}
+
+.app-title h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #1f2937;
+}
+
+.app-title p {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 4px 0 0 0;
+}
+
+.app-header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.inline-status-form {
+    margin: 0;
+}
+
+.status-select-compact {
+    padding: 8px 32px 8px 12px;
+    border: 2px solid;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='currentColor' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+.status-select-compact.status-unread {
+    background-color: #fef3c7;
+    border-color: #f59e0b;
+    color: #92400e;
+}
+
+.status-select-compact.status-read {
+    background-color: #dbeafe;
+    border-color: #3b82f6;
+    color: #1e40af;
+}
+
+.status-select-compact.status-shortlisted {
+    background-color: #d1fae5;
+    border-color: #10b981;
+    color: #065f46;
+}
+
+.status-select-compact.status-rejected {
+    background-color: #fee2e2;
+    border-color: #ef4444;
+    color: #991b1b;
+}
+
+.status-select-compact.status-hired {
+    background-color: #ddd6fe;
+    border-color: #8b5cf6;
+    color: #5b21b6;
+}
+
+/* Two Column Layout */
+.app-layout {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 20px;
+}
+
+.app-main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.app-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Info Cards */
+.info-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.info-card h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1f2937;
+    margin: 0 0 16px 0;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #f3f4f6;
+}
+
+.info-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.info-row:last-child {
+    margin-bottom: 0;
+}
+
+.info-col {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.info-col label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.info-col span {
+    font-size: 14px;
+    color: #1f2937;
+    font-weight: 500;
+}
+
+.message-content {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #374151;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Compact Files List */
+.files-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.file-item-compact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #f9fafb;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.file-item-compact:hover {
+    background: #f3f4f6;
+}
+
+.file-icon-small {
+    width: 36px;
+    height: 36px;
+    background: #3b82f6;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 9px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.file-info-compact {
+    flex: 1;
+    min-width: 0;
+}
+
+.file-name-compact {
+    font-size: 13px;
+    font-weight: 500;
+    color: #1f2937;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.file-size-compact {
+    font-size: 11px;
+    color: #6b7280;
+    margin-top: 2px;
+}
+
+.btn-download-compact {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #10b981;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+
+.btn-download-compact:hover {
+    background: #059669;
+}
+
+.btn-download-compact svg {
+    width: 16px;
+    height: 16px;
+}
+
+.no-files {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 13px;
+    padding: 20px;
+}
+
+.status-form {
+    display: flex;
+    align-items: end;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.form-group {
+    flex: 1;
+    max-width: 300px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 8px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #1f2937;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.form-select:focus {
+    outline: none;
+    border-color: #1e3a5f;
+    box-shadow: 0 0 0 3px rgba(30, 58, 95, 0.1);
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-unread {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.status-read {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.status-shortlisted {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.status-rejected {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.status-hired {
+    background: #ddd6fe;
+    color: #5b21b6;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .files-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .file-card {
+        padding: 12px;
+    }
+    
+    .file-icon {
+        width: 48px;
+        height: 48px;
+    }
+    
+    .status-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .form-group {
+        max-width: 100%;
+    }
+}

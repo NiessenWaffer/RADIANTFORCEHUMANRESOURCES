@@ -1,0 +1,206 @@
+/* Ultra Compact Styles - Minimal Gaps */
+
+/* Minimal header padding */
+.dashboard-header {
+    padding: 10px 0 !important;
+    margin-bottom: 12px !important;
+}
+
+.dashboard-header h1 {
+    font-size: 18px !important;
+    margin-bottom: 3px !important;
+}
+
+.dashboard-header p {
+    font-size: 12px !important;
+    margin: 0 !important;
+}
+
+/* Minimal section spacing */
+.content-section {
+    padding: 12px !important;
+    margin-bottom: 10px !important;
+}
+
+.section-header {
+    margin-bottom: 8px !important;
+    padding-bottom: 6px !important;
+}
+
+.section-header h2 {
+    font-size: 14px !important;
+    margin: 0 !important;
+    font-weight: 600 !important;
+}
+
+/* Tight info grid */
+.info-grid {
+    gap: 8px !important;
+    margin-top: 8px !important;
+}
+
+.info-item {
+    padding: 10px !important;
+    border-radius: 6px !important;
+}
+
+.info-item label {
+    font-size: 10px !important;
+    margin-bottom: 4px !important;
+}
+
+.info-value {
+    font-size: 13px !important;
+}
+
+/* Compact message box */
+.message-box {
+    padding: 12px !important;
+    margin-top: 8px !important;
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+}
+
+/* Minimal file gaps */
+.files-grid {
+    gap: 8px !important;
+    margin-top: 8px !important;
+}
+
+.file-card {
+    padding: 10px !important;
+    gap: 10px !important;
+}
+
+.file-icon {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.file-icon svg {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.file-ext {
+    font-size: 8px !important;
+    padding: 1px 3px !important;
+}
+
+.file-name {
+    font-size: 12px !important;
+    margin-bottom: 2px !important;
+}
+
+.file-meta {
+    font-size: 10px !important;
+    gap: 8px !important;
+}
+
+.btn-icon {
+    width: 32px !important;
+    height: 32px !important;
+}
+
+.btn-icon svg {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+/* Compact status form */
+.status-form {
+    gap: 10px !important;
+    margin-top: 8px !important;
+}
+
+.form-group {
+    margin-bottom: 0 !important;
+}
+
+.form-group label {
+    font-size: 12px !important;
+    margin-bottom: 4px !important;
+}
+
+.form-select {
+    padding: 6px 8px !important;
+    font-size: 12px !important;
+}
+
+/* Compact buttons */
+.btn-primary, .btn-secondary {
+    padding: 6px 12px !important;
+    font-size: 12px !important;
+}
+
+.btn-primary svg, .btn-secondary svg {
+    width: 14px !important;
+    height: 14px !important;
+    margin-right: 4px !important;
+}
+
+/* Compact status badges */
+.status-badge {
+    padding: 3px 8px !important;
+    font-size: 10px !important;
+}
+
+/* Minimal overall spacing */
+.content-wrapper {
+    padding: 12px !important;
+}
+
+/* Reduce badge spacing */
+.badge {
+    padding: 2px 6px !important;
+    font-size: 10px !important;
+    margin-left: 4px !important;
+}
+
+/* Tighter file details */
+.file-details {
+    gap: 2px !important;
+}
+
+/* Remove extra margins */
+.info-grid > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.files-grid > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* Compact back button */
+.btn-secondary {
+    padding: 6px 10px !important;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .dashboard-header {
+        padding: 8px 0 !important;
+        margin-bottom: 10px !important;
+    }
+    
+    .content-section {
+        padding: 10px !important;
+        margin-bottom: 8px !important;
+    }
+    
+    .info-grid {
+        gap: 6px !important;
+    }
+    
+    .info-item {
+        padding: 8px !important;
+    }
+    
+    .files-grid {
+        gap: 6px !important;
+    }
+    
+    .file-card {
+        padding: 8px !important;
+    }
+}

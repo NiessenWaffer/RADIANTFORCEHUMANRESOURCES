@@ -1,0 +1,42 @@
+{
+  "name": "Radiant Force HR - Job Portal",
+  "short_name": "Radiant HR",
+  "description": "Find your dream job with Radiant Force Human Resources",
+  "start_url": "/radiantforcehumanresources.php",
+  "display": "standalone",
+  "background_color": "#2c3e50",
+  "theme_color": "#5dd3e0",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/imagees/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/imagees/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Browse Jobs",
+      "short_name": "Jobs",
+      "description": "View all available job positions",
+      "url": "/jobs/jobs.php",
+      "icons": [{ "src": "/imagees/logo.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Apply Now",
+      "short_name": "Apply",
+      "description": "Submit your application",
+      "url": "/jobs/cities.php",
+      "icons": [{ "src": "/imagees/logo.png", "sizes": "96x96" }]
+    }
+  ]
+}

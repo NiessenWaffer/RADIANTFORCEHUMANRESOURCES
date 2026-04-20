@@ -1,0 +1,62 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Database backups
+*.sql.backup
+*.sql.bak
+
+# Uploaded files
+radiant/uploads/*
+!radiant/uploads/.gitkeep
+
+# Logs
+*.log
+error_log
+access_log
+
+# Cache files
+*.cache
+cache/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Composer (if used)
+vendor/
+composer.lock
+
+# Node modules (if used)
+node_modules/
+package-lock.json
+
+# Build files
+dist/
+build/
+
+# Sensitive configuration files (keep templates)
+config.local.php
+local_config.php
+
+# Session files
+sessions/
+
+# Backup files
+*.backup
+*.bak
+*.old
